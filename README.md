@@ -38,25 +38,31 @@ The AWS File Processing System provides a web interface for users to submit a te
 - AWS CLI configured with appropriate permissions
 - AWS CDK CLI
 - An AWS account with necessary permissions
-
 ## Setup
 
-1. Clone the repository:
-git clone https://github.com/yourusername/aws-file-processing-system.git
-cd aws-file-processing-system
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/aws-file-processing-system.git
+    cd aws-file-processing-system
+    ```
 
-2. Install backend dependencies:
-cd backend
-npm install
+2. **Install backend dependencies**:
+    ```sh
+    cd backend
+    npm install
+    ```
    
-3. Install frontend dependencies:
-cd ../frontend
-npm install
+3. **Install frontend dependencies**:
+    ```sh
+    cd ../frontend
+    npm install
+    ```
    
-4. Configure the frontend:
-Create a `.env` file in the frontend directory with:
-REACT_APP_API_URL=https://your-api-gateway-url.com
-
+4. **Configure the frontend**:
+    Create a `.env` file in the frontend directory with:
+    ```plaintext
+    REACT_APP_API_URL=https://your-api-gateway-url.com
+    ```
 ## Project Structure
 ```plaintext
 aws-file-processing-system/
