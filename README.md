@@ -58,16 +58,17 @@ Create a `.env` file in the frontend directory with:
 REACT_APP_API_URL=https://your-api-gateway-url.com
 
 ## Project Structure
+```plaintext
 aws-file-processing-system/
 ├── backend/
-│   ├── lib/
-│   │   └── backend-stack.ts  # CDK stack definition
-│   └── lambda/
-│       └── index.ts          # Lambda function code
+│  ├── lib/
+│  │  └── backend-stack.ts  # CDK stack definition
+│  └── lambda/
+│     └── index.ts          # Lambda function code
 └── frontend/
     └── src/
         └── App.tsx           # React frontend component
-
+```
 ## Usage
 
 1. Deploy the backend:
