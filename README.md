@@ -77,18 +77,21 @@ aws-file-processing-system/
 ```
 ## Usage
 
-1. Deploy the backend:
-cd backend
-cdk deploy
+1. **Deploy the backend**:
+    ```sh
+    cd backend
+    cdk deploy
+    ```
 
-3. Start the frontend development server:
-cd frontend
-npm start
-  
-4. Open a web browser and navigate to `http://localhost:3000`
+2. **Start the frontend development server**:
+    ```sh
+    cd frontend
+    npm start
+    ```
 
-5. Use the web interface to upload a file and input text. The system will process your input and display the results.
+3. **Open a web browser and navigate to `http://localhost:3000`**.
 
+4. **Use the web interface to upload a file and input text**. The system will process your input and display the results.
 ## Development
 
 ### Backend
@@ -114,6 +117,12 @@ The `App.tsx` React component provides:
 - Asynchronous submission to the API
 - Display of processing results or errors
 
+### TypeScript to JavaScript Conversion
+
+Before deploying the backend, ensure that your TypeScript files are compiled to JavaScript. This can be done using the TypeScript compiler. Run the following command in the `backend` directory:
+```sh
+npx tsc
+```
 ## Deployment
 
 1. Backend: Run `cdk deploy` in the `backend` directory
