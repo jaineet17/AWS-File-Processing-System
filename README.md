@@ -65,8 +65,8 @@ aws-file-processing-system/
 │   └── lambda/
 │       └── index.ts          # Lambda function code
 └── frontend/
-└── src/
-└── App.tsx           # React frontend component
+    └── src/
+        └── App.tsx           # React frontend component
 
 ## Usage
 
